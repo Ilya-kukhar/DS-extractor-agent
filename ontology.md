@@ -1,7 +1,7 @@
 # Онтология: Knowledge Extractor
 
 > **Тип:** Downstream-instrument
-> **Upstream:** PACK-digital-platform
+> **Upstream:** PACK-digital-platform, PACK-MIM (ontology sync)
 > **Базовая онтология:** [SPF/ontology.md](../SPF/ontology.md) (SPF.SPEC.002)
 >
 > Downstream ссылается на понятия Pack'ов и SPF. Новых онтологических понятий не вводит (SPF.SPEC.002 § 4.3).
@@ -13,6 +13,7 @@
 | Уровень | Источник | Что используется |
 |---------|----------|------------------|
 | Pack | [PACK-digital-platform](../PACK-digital-platform/) | Паспорт ИИ-системы, метод экстракции, рабочий продукт, failure mode |
+| Pack | [PACK-MIM](../PACK-MIM/) | Форматы и программы развития (для Ontology Sync) |
 | SPF | [SPF/ontology.md](../SPF/ontology.md) | Базовая онтология (U.*), виды сущностей, правила наследования |
 | FPF | Через SPF | Мета-онтология |
 
