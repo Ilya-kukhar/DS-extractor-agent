@@ -1,7 +1,7 @@
 # Онтология: Knowledge Extractor
 
 > **Тип:** Downstream-instrument
-> **Upstream:** spf-digital-platform-pack
+> **Upstream:** PACK-digital-platform
 > **Базовая онтология:** [SPF/ontology.md](../SPF/ontology.md) (SPF.SPEC.002)
 >
 > Downstream ссылается на понятия Pack'ов и SPF. Новых онтологических понятий не вводит (SPF.SPEC.002 § 4.3).
@@ -12,7 +12,7 @@
 
 | Уровень | Источник | Что используется |
 |---------|----------|------------------|
-| Pack | [spf-digital-platform-pack](../spf-digital-platform-pack/) | Паспорт ИИ-системы, метод экстракции, рабочий продукт, failure mode |
+| Pack | [PACK-digital-platform](../PACK-digital-platform/) | Паспорт ИИ-системы, метод экстракции, рабочий продукт, failure mode |
 | SPF | [SPF/ontology.md](../SPF/ontology.md) | Базовая онтология (U.*), виды сущностей, правила наследования |
 | FPF | Через SPF | Мета-онтология |
 
@@ -61,6 +61,6 @@
 
 ## 5. Связанные документы
 
-- [DP.AISYS.013](../spf-digital-platform-pack/pack/digital-platform/02-domain-entities/DP.AISYS.013-knowledge-extractor/) — паспорт ИИ-системы
-- [DP.METHOD.001](../spf-digital-platform-pack/pack/digital-platform/03-methods/DP.METHOD.001-knowledge-extraction.md) — метод экстракции
+- [DP.AISYS.013](../PACK-digital-platform/pack/digital-platform/02-domain-entities/DP.AISYS.013-knowledge-extractor/) — паспорт ИИ-системы
+- [DP.METHOD.001](../PACK-digital-platform/pack/digital-platform/03-methods/DP.METHOD.001-knowledge-extraction.md) — метод экстракции
 - [SPF/ontology.md](../SPF/ontology.md) — базовая онтология (SPF.SPEC.002)

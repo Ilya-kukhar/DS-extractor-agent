@@ -1,8 +1,8 @@
-# Инструкции для extractor-agent
+# Инструкции для DS-extractor-agent
 
 > **Тип:** downstream-instrument
-> **Source-of-truth:** `DP.AISYS.013` (spf-digital-platform-pack)
-> **Upstream:** spf-digital-platform-pack → SPF → FPF
+> **Source-of-truth:** `DP.AISYS.013` (PACK-digital-platform)
+> **Upstream:** PACK-digital-platform → SPF → FPF
 
 ## Назначение
 
@@ -52,7 +52,7 @@ Knowledge Extractor — ИИ-система, которая трансформи
 
 ## Конвенция именования агентов
 
-Репозитории ИИ-систем: `{slug}-agent` (пример: `strategist-agent`, `extractor-agent`).
+Репозитории ИИ-систем: `DS-{slug}` (пример: `DS-strategist`, `DS-extractor-agent`).
 Привязка к Pack через `source-of-truth` в CLAUDE.md, не через имя репо.
 
 ---

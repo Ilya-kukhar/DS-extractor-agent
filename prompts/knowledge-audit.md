@@ -20,7 +20,7 @@
 | Scope | Что проверять |
 |-------|-------------|
 | Один Pack | Конкретный Pack-репо |
-| Все Pack'и | spf-digital-platform-pack + spf-personal-pack + spf-ecosystem-pack |
+| Все Pack'и | PACK-digital-platform + PACK-personal + PACK-ecosystem |
 | Одна директория | Например, только 03-methods/ |
 | Pack + downstream | Pack и все его downstream-репо (онтологическая связь) |
 | Один downstream | Конкретный downstream-репо (ontology.md + привязки к Pack) |
@@ -179,7 +179,7 @@
 ## Как тестировать
 
 Скажи:
-- «Аудит spf-digital-platform-pack» — проверит один Pack
+- «Аудит PACK-digital-platform» — проверит один Pack
 - «Аудит всех Pack'ов» — проверит все
 - «Проверь методы в digital-platform» — проверит одну директорию
 

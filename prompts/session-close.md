@@ -44,9 +44,9 @@
 
 | Домен | Pack | Префикс | Путь |
 |-------|------|---------|------|
-| Платформа, ИТ, ИИ-системы | spf-digital-platform-pack | `DP` | `~/Github/spf-digital-platform-pack/pack/digital-platform/` |
-| Созидатель, развитие, индикаторы | spf-personal-pack | `PP` | `~/Github/spf-personal-pack/pack/personal/` |
-| Экосистема, клуб, программы | spf-ecosystem-pack | `EP` | `~/Github/spf-ecosystem-pack/pack/ecosystem/` |
+| Платформа, ИТ, ИИ-системы | PACK-digital-platform | `DP` | `~/Github/PACK-digital-platform/pack/digital-platform/` |
+| Созидатель, развитие, индикаторы | PACK-personal | `PP` | `~/Github/PACK-personal/pack/personal/` |
+| Экосистема, клуб, программы | PACK-ecosystem | `EP` | `~/Github/PACK-ecosystem/pack/ecosystem/` |
 
 **Определи директорию по типу:**
 
@@ -279,7 +279,7 @@ epistemic_stage: emerging
 **Классификация:** {тип}
 
 **Куда записать:**
-- **Репо:** {полный путь к репо, например ~/Github/spf-digital-platform-pack}
+- **Репо:** {полный путь к репо, например ~/Github/PACK-digital-platform}
 - **Файл:** {полный путь к файлу, например pack/digital-platform/05-failure-modes/DP.FM.003-non-idempotent-state.md}
 - **Действие:** создать файл / добавить секцию в существующий / добавить строки в CLAUDE.md
 
@@ -323,7 +323,7 @@ epistemic_stage: emerging
    - Создай файл (или добавь секцию) **ровно по тексту из «Готовый текст»**
    - Закоммить в соответствующий репо
 3. Для reject — ничего не делай.
-4. Для defer — запиши в `my-strategy/inbox/` для следующего цикла.
+4. Для defer — запиши в `DS-my-strategy/inbox/` для следующего цикла.
 5. Для «противоречит» — обсуди с пользователем, какая версия правильная.
 
 ## Что НЕ делать

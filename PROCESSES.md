@@ -1,6 +1,6 @@
 # Процессы Knowledge Extractor
 
-> **Source-of-truth:** `DP.AISYS.013` (spf-digital-platform-pack)
+> **Source-of-truth:** `DP.AISYS.013` (PACK-digital-platform)
 > **Метод:** `DP.METHOD.001` (Экстракция знаний)
 > **Рабочий продукт:** `DP.WP.001` (Отчёт экстракции)
 
@@ -72,8 +72,8 @@ Knowledge Extractor (KE) — ИИ-система с **5 процессами**, 
 ```
 Сессия: работа над ботом (РП4).
 Во время сессии Claude анонсировал:
-  - Capture: FSM-идемпотентность → spf-digital-platform-pack (FM)
-  - Capture: Правило маршрутизации mode → aist_bot/CLAUDE.md (rule)
+  - Capture: FSM-идемпотентность → PACK-digital-platform (FM)
+  - Capture: Правило маршрутизации mode → DS-aist-bot/CLAUDE.md (rule)
 
 На Close KE:
 1. Берёт 2 отложенных capture
@@ -81,7 +81,7 @@ Knowledge Extractor (KE) — ИИ-система с **5 процессами**, 
    «Паттерн: handler-per-state вместо switch-case» → method
 3. Для каждого:
    - FSM-идемпотентность → DP.FM.003-non-idempotent-state.md (accept)
-   - Правило маршрутизации → aist_bot/CLAUDE.md, строка 42 (accept)
+   - Правило маршрутизации → DS-aist-bot/CLAUDE.md, строка 42 (accept)
    - handler-per-state → DP.METHOD.002-handler-per-state.md (defer — нужна доп. информация)
 4. Отчёт → пользователь ревьюит → 2 accept, 1 defer
 5. Записывает 2 файла, коммитит
@@ -176,7 +176,7 @@ Knowledge Extractor (KE) — ИИ-система с **5 процессами**, 
 ### Пример
 
 ```
-Вход: пост «DDD vs FPF/SPF/Pack» из Knowledge-Index.
+Вход: пост «DDD vs FPF/SPF/Pack» из DS-Knowledge-Index-Tseren.
 KE находит:
   - 3 различения (DDD aggregate ≠ Pack entity, bounded context разный смысл, ...)
   - 1 метод (трансляция DDD-паттернов в SPF)
@@ -242,7 +242,7 @@ KE находит:
 - Нет → это governance-контент (план, задача, статус) → не экстрагировать
 
 **Что НЕ является знанием:**
-- Статусы задач, планы, дедлайны → governance (my-strategy)
+- Статусы задач, планы, дедлайны → governance (DS-my-strategy)
 - Код → instrument-репо
 - UI-текст → surface-репо
 - Персональные данные пользователя → user-space
@@ -264,9 +264,9 @@ KE находит:
 
 | Домен знания | Целевой Pack | Префикс |
 |--------------|-------------|---------|
-| Платформа, ИТ, ИИ-системы | `spf-digital-platform-pack` | `DP` |
-| Созидатель, развитие, индикаторы | `spf-personal-pack` | `PP` |
-| Экосистема, клуб, программы | `spf-ecosystem-pack` | `EP` |
+| Платформа, ИТ, ИИ-системы | `PACK-digital-platform` | `DP` |
+| Созидатель, развитие, индикаторы | `PACK-personal` | `PP` |
+| Экосистема, клуб, программы | `PACK-ecosystem` | `EP` |
 
 **Определение директории по типу знания:**
 
@@ -410,7 +410,7 @@ epistemic_stage: emerging
 
 ### Extraction Report (DP.WP.001)
 
-Полная структура описана в `spf-digital-platform-pack/pack/digital-platform/04-work-products/DP.WP.001-extraction-report.md`.
+Полная структура описана в `PACK-digital-platform/pack/digital-platform/04-work-products/DP.WP.001-extraction-report.md`.
 
 **Краткая структура:**
 
