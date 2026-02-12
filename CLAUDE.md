@@ -20,7 +20,7 @@ Knowledge Extractor — ИИ-система, которая трансформи
 | Bulk Extraction | `prompts/bulk-extraction.md` | Готов к тесту |
 | Cross-Repo Sync | `prompts/cross-repo-sync.md` | Готов к тесту |
 | Knowledge Audit | `prompts/knowledge-audit.md` | Готов к тесту |
-| Inbox-Check | `prompts/inbox-check.md` | Готов к тесту |
+| Inbox-Check | `prompts/inbox-check.md` | Работает (launchd 3h) |
 | Ontology Sync | `prompts/ontology-sync.md` | Готов к тесту |
 
 > **Исключение:** Мелкие правила (1-3 строки) → Claude пишет напрямую, без KE. Все остальное знание → только через KE.
