@@ -92,6 +92,11 @@ $extra_args"
     # Commit + push changes (отчёты, помеченные captures)
     # NB: Claude Code внутри run_claude может уже закоммитить — проверяем staged после add
     local strategy_dir="$HOME/Github/DS-my-strategy"
+
+    # Очистить staging area от orphaned changes Claude сессии (предотвращает staging leak)
+    git -C "$strategy_dir" reset --quiet 2>/dev/null || true
+
+    # Стейджим ТОЛЬКО наши файлы
     git -C "$strategy_dir" add inbox/captures.md inbox/extraction-reports/ >> "$LOG_FILE" 2>&1 || true
     if ! git -C "$strategy_dir" diff --cached --quiet 2>/dev/null; then
         git -C "$strategy_dir" commit -m "inbox-check: extraction report $DATE" >> "$LOG_FILE" 2>&1 \
