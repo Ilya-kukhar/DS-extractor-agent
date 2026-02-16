@@ -10,10 +10,10 @@
 
 | Домен | Pack | Префикс | Путь |
 |-------|------|---------|------|
-| Платформа, ИТ, ИИ-системы, агенты, архитектура | PACK-digital-platform | `DP` | `~/Github/PACK-digital-platform/pack/digital-platform/` |
-| Созидатель, развитие, индикаторы, саморефлексия | PACK-personal | `PP` | `~/Github/PACK-personal/pack/personal/` |
-| Экосистема, клуб, программы, участники | PACK-ecosystem | `EP` | `~/Github/PACK-ecosystem/pack/ecosystem/` |
-| Мастерская (MIM), контент курсов, обучение | PACK-MIM | `MIM` | `~/Github/PACK-MIM/pack/mim/` |
+| Платформа, ИТ, ИИ-системы, агенты, архитектура | PACK-digital-platform | `DP` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-digital-platform/pack/digital-platform/` |
+| Созидатель, развитие, индикаторы, саморефлексия | PACK-personal | `PP` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-personal/pack/personal/` |
+| Экосистема, клуб, программы, участники | PACK-ecosystem | `EP` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-ecosystem/pack/ecosystem/` |
+| Мастерская (MIM), контент курсов, обучение | PACK-MIM | `MIM` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-MIM/pack/mim/` |
 
 ## 2. Директории по типу знания
 
@@ -25,8 +25,8 @@
 | Рабочий продукт | `wp` | `04-work-products/` | Отдельный файл |
 | Failure mode | `fm` | `05-failure-modes/` | Отдельный файл |
 | Характеристика | `chr` | `06-characteristics/` | Отдельный файл |
-| SoTA-аннотация | `sota` | `08-sota/` | Отдельный файл |
-| Правило (глобальное) | `rule` | `~/Github/CLAUDE.md` | Строки |
+| SoTA-аннотация | `sota` | `06-sota/` | Отдельный файл |
+| Правило (глобальное) | `rule` | `c:/Users/Admin/YandexDisk/репо s2r/CLAUDE.md` | Строки |
 | Правило (локальное) | `rule` | `<repo>/CLAUDE.md` | Строки |
 | Правило (урок) | `rule` | `memory/<topic>.md` | Строки |
 
@@ -57,4 +57,4 @@
 
 ---
 
-*Последнее обновление: 2026-02-12*
+*Последнее обновление: 2026-02-16*
