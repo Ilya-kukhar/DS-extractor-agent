@@ -11,7 +11,7 @@
 | Домен | Pack | Префикс | Путь |
 |-------|------|---------|------|
 | Логистика, доставка, посылки, SLA, маркетплейс | PACK-marketplace | `MP` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-marketplace/pack/marketplace/` |
-| Цифровая платформа, ИТ, ИИ-системы, архитектура, SOTA | PACK-digital-platform | `DP` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-digital-platform/pack/digital-platform/` |
+| Цифровая платформа, ИТ, ИИ-системы, архитектура, SOTA | PACK-digital-platform-marketplace | `DP` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-digital-platform-marketplace/pack/digital-platform/` |
 
 ## 2. Директории по типу знания
 
