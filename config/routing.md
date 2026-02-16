@@ -10,10 +10,8 @@
 
 | Домен | Pack | Префикс | Путь |
 |-------|------|---------|------|
-| Платформа, ИТ, ИИ-системы, агенты, архитектура | PACK-digital-platform | `DP` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-digital-platform/pack/digital-platform/` |
-| Созидатель, развитие, индикаторы, саморефлексия | PACK-personal | `PP` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-personal/pack/personal/` |
-| Экосистема, клуб, программы, участники | PACK-ecosystem | `EP` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-ecosystem/pack/ecosystem/` |
-| Мастерская (MIM), контент курсов, обучение | PACK-MIM | `MIM` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-MIM/pack/mim/` |
+| Логистика, доставка, посылки, SLA, маркетплейс | PACK-marketplace | `MP` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-marketplace/pack/marketplace/` |
+| Цифровая платформа, ИТ, ИИ-системы, архитектура, SOTA | PACK-digital-platform | `DP` | `c:/Users/Admin/YandexDisk/репо s2r/PACK-digital-platform/pack/digital-platform/` |
 
 ## 2. Директории по типу знания
 
@@ -36,7 +34,7 @@
 
 | Компонент | Источник | Пример |
 |-----------|----------|--------|
-| `PREFIX` | Колонка «Префикс» из таблицы 1 | `DP`, `PP`, `MIM` |
+| `PREFIX` | Колонка «Префикс» из таблицы 1 | `MP`, `DP` |
 | `TYPE` | Код типа (AISYS, METHOD, FM, WP, CHR, SOTA, ...) | `METHOD` |
 | `NNN` | max(существующий) + 1 | `002` |
 | `slug` | kebab-case из названия | `handler-per-state` |
